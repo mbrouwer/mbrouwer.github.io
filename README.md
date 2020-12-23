@@ -1,61 +1,36 @@
-# [Tailwind Toolbox](https://www.tailwindtoolbox.com/) - [Starter Template](https://www.tailwindtoolbox.com/setup)
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-It's pretty straight forward to setup [Tailwind CSS](https://www.tailwindcss.com/) and give it a test spin using the CDN version. However, as mentioned on the Tailwind site, you need to setup Tailwind using npm in order to start customising Tailwind.
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-*Note: This starter template is for Tailwind CSS version 1 beta 3 (which is pretty much the [final version](https://twitter.com/adamwathan/status/1108450684783849472))
+## Demo
 
-If you want the starter template for version 0.7.4, then please [download it from here](https://github.com/tailwindtoolbox/StarterTemplate/archive/v0-7-4.zip)*
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-## Setup Guide
-* Download [Node/npm](https://nodejs.org/en/download/)
-* Download the [Tailwind Starter Template](https://github.com/tailwindtoolbox/StarterTemplate/archive/master.zip)
-* Open ```package.json``` and then edit the follow section of the file to match your project
+The main page would look like this:
 
-```"name": "TailwindStarterTemplate",
-"version": "1.0.0",
-"description": "Tailwind Starter Template",
-"license" : "MIT",
-"repository": {
-    "type" : "git",
-    "url" : "https://github.com/tailwindtoolbox/StarterTemplate.git"
-},
-```
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
 
-Refer to https://docs.npmjs.com/files/package.json for guidance
+The post page would look like this:
 
-* Open your node command prompt/terminal and navigate to your 'project-name' folder and create the `node_modules` directory
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
 
-   ```npm install or npm update```
+## Features
 
-* Refresh the Tailwind.js file
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
 
-   ```npm run del:js && npm run create:js```
+## Installation:
 
-* Re-create the initial css file
+Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
 
-   ```npm run dev:css```
+## License
 
-* Start building your website using the starter template in the dist folder.
+GNU General Public License v3.0
 
+## Donate
 
-
-
-## Tweaking
-* Customise the tailwind.config.js and tailwind.config.css to create the tailwind.css for your project
-* Use purgecss/cssnano to remove unused CSS and minify the final CSS file
-
-Refer to the [full setup guide for detailed instructions](https://www.tailwindtoolbox.com/setup)
-
-## Bugs and Issues
-
-Have a bug, suggestion or question? [Open a new issue](https://github.com/tailwindtoolbox/StarterTemplate/issues/new) here on GitHub.
-
-## Creator
-
-[Tailwind Toolbox](https://www.tailwindtoolbox.com/) was created by and is maintained by **[Amrit Nagi](https://amritnagi.info/)**, Co-owner of [Astrava.Solutions](https://astrava.solutions).
-
-* https://twitter.com/tailwindtoolbox
-* https://twitter.com/amritnagi
-* https://github.com/tailwindtoolbox
-
-Tailwind Toolbox is based on the [Tailwind CSS](https://www.tailwindcss.com/) framework created by [Adam Wathan](https://twitter.com/adamwathan), [Jonathan Reinink](https://twitter.com/reinink), [David Hemphill](https://twitter.com/davidhemphill) and [Steve Schoger](https://twitter.com/steveschoger)
+<p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
+<p align="center"><b>Thank you for your support ❤️</b></p>
